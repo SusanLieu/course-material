@@ -35,7 +35,6 @@ void loop() {
   // Stop after moving 1 meter
   if (car.getDistance() >= 100) {
     Serial.println(car.getDistance);
-    Serial.println("");
     car.setSpeed(0);
   }
 
